@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem"
 import './ExpensesList.css'
 
 const ExpensesList = props => {
-    const { items: expenses } = props
+    const { expenses } = props
     if (expenses.length === 0) {
         return (
             <h2 className="expenses-list__fallback">Found no expenses.</h2>
